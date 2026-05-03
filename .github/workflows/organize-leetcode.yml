@@ -1,0 +1,166 @@
+name: Organize LeetCode folders
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+permissions:
+  contents: write
+
+jobs:
+  organize-leetcode:
+    runs-on: ubuntu-latest
+
+    if: github.actor != 'github-actions[bot]'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Organize LeetCode folders
+        run: |
+          python3 << 'PY'
+          import os
+          import re
+          import shutil
+          from pathlib import Path
+
+          ROOT = Path(".")
+          LEETCODE_DIR = ROOT / "LeetCode"
+
+          IGNORE_DIRS = {
+              ".git",
+              ".github",
+              "Baekjoon",
+              "Programmers",
+              "LeetCode",
+          }
+
+          DIFFICULTY_DIRS = {
+              "easy": "Easy",
+              "medium": "Medium",
+              "hard": "Hard",
+          }
+
+          def read_text_safe(path):
+              try:
+                  return path.read_text(encoding="utf-8", errors="ignore")
+              except Exception:
+                  return ""
+
+          def find_difficulty(problem_dir):
+              candidates = [
+                  problem_dir / "README.md",
+                  problem_dir / "README.MD",
+                  problem_dir / "readme.md",
+              ]
+
+              text = ""
+              for file in candidates:
+                  if file.exists():
+                      text += "\n" + read_text_safe(file)
+
+              lower_text = text.lower()
+
+              # LeetHub README 안에 difficulty 정보가 있는 경우 대응
+              if "difficulty" in lower_text:
+                  if re.search(r"difficulty\s*[:|-]?\s*easy", lower_text):
+                      return "Easy"
+                  if re.search(r"difficulty\s*[:|-]?\s*medium", lower_text):
+                      return "Medium"
+                  if re.search(r"difficulty\s*[:|-]?\s*hard", lower_text):
+                      return "Hard"
+
+              # README 전체 텍스트 안에 난이도 단어가 명확히 있는 경우 대응
+              for key, value in DIFFICULTY_DIRS.items():
+                  if re.search(rf"\b{key}\b", lower_text):
+                      return value
+
+              return "Unknown"
+
+          def is_problem_dir(path):
+              if not path.is_dir():
+                  return False
+
+              if path.name in IGNORE_DIRS:
+                  return False
+
+              # 루트에 생성된 LeetHub 문제 폴더만 대상으로 봄
+              has_code = any(
+                  child.suffix in {
+                      ".cpp", ".cc", ".cxx",
+                      ".java",
+                      ".py",
+                      ".js",
+                      ".ts",
+                      ".go",
+                      ".rs",
+                      ".kt",
+                      ".cs",
+                      ".swift"
+                  }
+                  for child in path.rglob("*")
+                  if child.is_file()
+              )
+
+              has_readme = any(
+                  child.name.lower() == "readme.md"
+                  for child in path.iterdir()
+                  if child.is_file()
+              )
+
+              return has_code or has_readme
+
+          LEETCODE_DIR.mkdir(exist_ok=True)
+
+          moved = False
+
+          for item in list(ROOT.iterdir()):
+              if not is_problem_dir(item):
+                  continue
+
+              difficulty = find_difficulty(item)
+              target_dir = LEETCODE_DIR / difficulty
+              target_dir.mkdir(parents=True, exist_ok=True)
+
+              target = target_dir / item.name
+
+              if target.exists():
+                  # 이미 같은 문제가 있으면 새 폴더 내용을 덮어쓰기보다 병합
+                  for child in item.iterdir():
+                      dest = target / child.name
+                      if dest.exists():
+                          if dest.is_dir():
+                              shutil.rmtree(dest)
+                          else:
+                              dest.unlink()
+
+                      shutil.move(str(child), str(dest))
+
+                  item.rmdir()
+              else:
+                  shutil.move(str(item), str(target))
+
+              moved = True
+
+          if moved:
+              print("LeetCode folders organized.")
+          else:
+              print("No LeetCode folders to organize.")
+          PY
+
+      - name: Commit changes
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add .
+            git commit -m "Organize LeetCode folders"
+            git push
+          else
+            echo "No changes to commit."
+          fi
