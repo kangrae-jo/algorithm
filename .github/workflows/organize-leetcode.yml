@@ -24,7 +24,6 @@ jobs:
       - name: Organize LeetCode folders
         run: |
           python3 << 'PY'
-          import os
           import re
           import shutil
           from pathlib import Path
@@ -32,18 +31,20 @@ jobs:
           ROOT = Path(".")
           LEETCODE_DIR = ROOT / "LeetCode"
 
+          # 절대 이동하면 안 되는 루트 폴더들
           IGNORE_DIRS = {
               ".git",
               ".github",
+              "LeetCode",
+
+              # 영어 폴더
               "Baekjoon",
               "Programmers",
-              "LeetCode",
-          }
+              "SWEA",
 
-          DIFFICULTY_DIRS = {
-              "easy": "Easy",
-              "medium": "Medium",
-              "hard": "Hard",
+              # 한글 폴더
+              "백준",
+              "프로그래머스",
           }
 
           def read_text_safe(path):
@@ -52,75 +53,85 @@ jobs:
               except Exception:
                   return ""
 
-          def find_difficulty(problem_dir):
-              candidates = [
-                  problem_dir / "README.md",
-                  problem_dir / "README.MD",
-                  problem_dir / "readme.md",
-              ]
+          def get_readme_text(problem_dir):
+              for name in ["README.md", "README.MD", "readme.md"]:
+                  readme = problem_dir / name
+                  if readme.exists() and readme.is_file():
+                      return read_text_safe(readme)
+              return ""
 
-              text = ""
-              for file in candidates:
-                  if file.exists():
-                      text += "\n" + read_text_safe(file)
-
-              lower_text = text.lower()
-
-              # LeetHub README 안에 difficulty 정보가 있는 경우 대응
-              if "difficulty" in lower_text:
-                  if re.search(r"difficulty\s*[:|-]?\s*easy", lower_text):
-                      return "Easy"
-                  if re.search(r"difficulty\s*[:|-]?\s*medium", lower_text):
-                      return "Medium"
-                  if re.search(r"difficulty\s*[:|-]?\s*hard", lower_text):
-                      return "Hard"
-
-              # README 전체 텍스트 안에 난이도 단어가 명확히 있는 경우 대응
-              for key, value in DIFFICULTY_DIRS.items():
-                  if re.search(rf"\b{key}\b", lower_text):
-                      return value
-
-              return "Unknown"
-
-          def is_problem_dir(path):
+          def is_leetcode_problem_dir(path):
               if not path.is_dir():
                   return False
 
               if path.name in IGNORE_DIRS:
                   return False
 
-              # 루트에 생성된 LeetHub 문제 폴더만 대상으로 봄
+              readme_text = get_readme_text(path)
+              lower_text = readme_text.lower()
+
+              # LeetHub가 만든 폴더인지 확인
+              # README에 leetcode 관련 링크/문구가 없으면 건드리지 않음
+              leetcode_markers = [
+                  "leetcode",
+                  "leetcode.com",
+                  "difficulty:",
+                  "difficulty",
+              ]
+
+              if not any(marker in lower_text for marker in leetcode_markers):
+                  return False
+
+              # 코드 파일이 하나 이상 있어야 문제 폴더로 판단
+              code_exts = {
+                  ".cpp", ".cc", ".cxx",
+                  ".java",
+                  ".py",
+                  ".js",
+                  ".ts",
+                  ".go",
+                  ".rs",
+                  ".kt",
+                  ".cs",
+                  ".swift"
+              }
+
               has_code = any(
-                  child.suffix in {
-                      ".cpp", ".cc", ".cxx",
-                      ".java",
-                      ".py",
-                      ".js",
-                      ".ts",
-                      ".go",
-                      ".rs",
-                      ".kt",
-                      ".cs",
-                      ".swift"
-                  }
+                  child.is_file() and child.suffix in code_exts
                   for child in path.rglob("*")
-                  if child.is_file()
               )
 
-              has_readme = any(
-                  child.name.lower() == "readme.md"
-                  for child in path.iterdir()
-                  if child.is_file()
-              )
+              return has_code
 
-              return has_code or has_readme
+          def find_difficulty(problem_dir):
+              text = get_readme_text(problem_dir).lower()
+
+              if re.search(r"difficulty\s*[:|-]?\s*easy", text):
+                  return "Easy"
+
+              if re.search(r"difficulty\s*[:|-]?\s*medium", text):
+                  return "Medium"
+
+              if re.search(r"difficulty\s*[:|-]?\s*hard", text):
+                  return "Hard"
+
+              if re.search(r"\beasy\b", text):
+                  return "Easy"
+
+              if re.search(r"\bmedium\b", text):
+                  return "Medium"
+
+              if re.search(r"\bhard\b", text):
+                  return "Hard"
+
+              return "Unknown"
 
           LEETCODE_DIR.mkdir(exist_ok=True)
 
           moved = False
 
           for item in list(ROOT.iterdir()):
-              if not is_problem_dir(item):
+              if not is_leetcode_problem_dir(item):
                   continue
 
               difficulty = find_difficulty(item)
@@ -130,9 +141,9 @@ jobs:
               target = target_dir / item.name
 
               if target.exists():
-                  # 이미 같은 문제가 있으면 새 폴더 내용을 덮어쓰기보다 병합
                   for child in item.iterdir():
                       dest = target / child.name
+
                       if dest.exists():
                           if dest.is_dir():
                               shutil.rmtree(dest)
@@ -145,6 +156,7 @@ jobs:
               else:
                   shutil.move(str(item), str(target))
 
+              print(f"Moved {item} -> {target}")
               moved = True
 
           if moved:
