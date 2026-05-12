@@ -1,4 +1,4 @@
-name: Organize LeetCode folders
+name: Move LeetCode files
 
 on:
   push:
@@ -9,112 +9,95 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: move-leetcode-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
-  organize-leetcode:
+  move-leetcode:
     runs-on: ubuntu-latest
 
     if: github.actor != 'github-actions[bot]'
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Move LeetHub output into LeetCode
+      - name: Move root LeetHub folders
         run: |
           python3 << 'PY'
           import re
           import shutil
           from pathlib import Path
 
-          ROOT = Path(".")
-          LEETCODE_DIR = ROOT / "LeetCode"
-          MOVED_PATHS_FILE = Path("/tmp/leetcode-moved-paths")
+          root = Path(".")
+          leetcode_dir = root / "LeetCode"
+          root_readme = root / "README.md"
+          leetcode_readme = leetcode_dir / "README.md"
+          moved_list = Path("/tmp/moved-leetcode-folders.txt")
 
-          KEEP_AT_ROOT = {
-              ".git",
-              ".github",
-              "LeetCode",
-              "Baekjoon",
-              "Programmers",
-              "SWEA",
-              "백준",
-              "프로그래머스",
-          }
-
-          TOPICS_RE = re.compile(
+          problem_dir_name = re.compile(r"^\d+-")
+          topics_block = re.compile(
               r"\n*<!---LeetCode Topics Start-->.*?<!---LeetCode Topics End-->\n*",
               re.DOTALL,
           )
 
-          def move_problem_dirs():
-              LEETCODE_DIR.mkdir(exist_ok=True)
-              moved_paths = []
+          leetcode_dir.mkdir(exist_ok=True)
 
-              for item in list(ROOT.iterdir()):
-                  if not item.is_dir() or item.name.startswith("."):
-                      continue
+          moved = []
+          for path in sorted(root.iterdir()):
+              if not path.is_dir() or not problem_dir_name.match(path.name):
+                  continue
 
-                  if item.name in KEEP_AT_ROOT:
-                      continue
+              target = leetcode_dir / path.name
+              if target.exists():
+                  shutil.rmtree(target)
 
-                  target = LEETCODE_DIR / item.name
-                  if target.exists():
-                      shutil.rmtree(target)
+              shutil.move(str(path), str(target))
+              moved.append(path.name)
+              print(f"Moved {path} -> {target}")
 
-                  shutil.move(str(item), str(target))
-                  moved_paths.append(item.name)
-                  print(f"Moved {item} -> {target}")
+          if root_readme.exists():
+              text = root_readme.read_text(encoding="utf-8")
+              match = topics_block.search(text)
 
-              return moved_paths
+              if match:
+                  topics = match.group(0).strip()
+                  topics = re.sub(
+                      r"(/tree/(?:main|master)/)(?!LeetCode/)",
+                      r"\1LeetCode/",
+                      topics,
+                  )
 
-          def move_readme_topics():
-              root_readme = ROOT / "README.md"
-              leetcode_readme = LEETCODE_DIR / "README.md"
-
-              if not root_readme.exists():
-                  return
-
-              root_text = root_readme.read_text(encoding="utf-8")
-              match = TOPICS_RE.search(root_text)
-              if not match:
-                  return
-
-              topics = match.group(0).strip()
-              topics = re.sub(r"(/tree/(?:main|master)/)(?!LeetCode/)", r"\1LeetCode/", topics)
-
-              root_text = TOPICS_RE.sub("\n\n", root_text).rstrip() + "\n"
-              root_readme.write_text(root_text, encoding="utf-8")
-
-              if leetcode_readme.exists():
-                  leetcode_text = leetcode_readme.read_text(encoding="utf-8")
-                  if TOPICS_RE.search(leetcode_text):
-                      leetcode_text = TOPICS_RE.sub(f"\n\n{topics}\n", leetcode_text).rstrip() + "\n"
+                  if leetcode_readme.exists():
+                      leetcode_text = leetcode_readme.read_text(encoding="utf-8")
+                      if topics_block.search(leetcode_text):
+                          leetcode_text = topics_block.sub(f"\n\n{topics}\n", leetcode_text)
+                      else:
+                          leetcode_text = leetcode_text.rstrip() + f"\n\n{topics}\n"
                   else:
-                      leetcode_text = leetcode_text.rstrip() + f"\n\n{topics}\n"
-              else:
-                  leetcode_text = f"# LeetCode\n\n{topics}\n"
+                      leetcode_text = f"# LeetCode\n\n{topics}\n"
 
-              leetcode_readme.write_text(leetcode_text, encoding="utf-8")
-              print("Moved LeetCode README topics into LeetCode/README.md")
+                  leetcode_readme.write_text(leetcode_text.rstrip() + "\n", encoding="utf-8")
 
-          moved_paths = move_problem_dirs()
-          move_readme_topics()
-          MOVED_PATHS_FILE.write_text("\n".join(moved_paths), encoding="utf-8")
+                  cleaned_root_readme = topics_block.sub("\n\n", text).rstrip() + "\n"
+                  root_readme.write_text(cleaned_root_readme, encoding="utf-8")
+                  print("Moved LeetCode README block into LeetCode/README.md")
 
-          if not moved_paths:
-              print("No root LeetHub folders to move.")
+          if not moved:
+              print("No root LeetHub folders found.")
+
+          moved_list.write_text("\n".join(moved), encoding="utf-8")
           PY
 
-      - name: Commit changes
+      - name: Commit
         run: |
-          git add -A -- LeetCode README.md
+          git add -A -- README.md LeetCode
 
-          if [[ -f /tmp/leetcode-moved-paths ]]; then
+          if [[ -s /tmp/moved-leetcode-folders.txt ]]; then
             while IFS= read -r path; do
-              [[ -n "$path" ]] && git add -A -- "$path"
-            done < /tmp/leetcode-moved-paths
+              git add -A -- "$path"
+            done < /tmp/moved-leetcode-folders.txt
           fi
 
           if git diff --cached --quiet; then
@@ -124,5 +107,5 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Move LeetCode files into LeetCode folder"
+          git commit -m "Move LeetCode files"
           git push
