@@ -25,7 +25,6 @@ public:
             }
         }
 
-        if (minutes != 0) return minutes - 1;
         return minutes == 0 ? minutes : minutes - 1;
     }
 
