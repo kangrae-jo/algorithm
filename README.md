@@ -8,28 +8,33 @@ kangrae-jo's Algorithm
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/kangrae-jo/algorithm/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/kangrae-jo/algorithm/tree/master/0200-number-of-islands) |
 | [0463-island-perimeter](https://github.com/kangrae-jo/algorithm/tree/master/0463-island-perimeter) |
 | [0733-flood-fill](https://github.com/kangrae-jo/algorithm/tree/master/0733-flood-fill) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/kangrae-jo/algorithm/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/kangrae-jo/algorithm/tree/master/0200-number-of-islands) |
 | [0463-island-perimeter](https://github.com/kangrae-jo/algorithm/tree/master/0463-island-perimeter) |
 | [0733-flood-fill](https://github.com/kangrae-jo/algorithm/tree/master/0733-flood-fill) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/kangrae-jo/algorithm/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/kangrae-jo/algorithm/tree/master/0200-number-of-islands) |
 | [0463-island-perimeter](https://github.com/kangrae-jo/algorithm/tree/master/0463-island-perimeter) |
 | [0733-flood-fill](https://github.com/kangrae-jo/algorithm/tree/master/0733-flood-fill) |
 ## Matrix
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/kangrae-jo/algorithm/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/kangrae-jo/algorithm/tree/master/0200-number-of-islands) |
 | [0463-island-perimeter](https://github.com/kangrae-jo/algorithm/tree/master/0463-island-perimeter) |
 | [0733-flood-fill](https://github.com/kangrae-jo/algorithm/tree/master/0733-flood-fill) |
 ## Union-Find
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/kangrae-jo/algorithm/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/kangrae-jo/algorithm/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
