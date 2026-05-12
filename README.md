@@ -11,6 +11,7 @@ kangrae-jo's Algorithm
 | [0200-number-of-islands](https://github.com/kangrae-jo/algorithm/tree/master/0200-number-of-islands) |
 | [0463-island-perimeter](https://github.com/kangrae-jo/algorithm/tree/master/0463-island-perimeter) |
 | [0733-flood-fill](https://github.com/kangrae-jo/algorithm/tree/master/0733-flood-fill) |
+| [0994-rotting-oranges](https://github.com/kangrae-jo/algorithm/tree/master/0994-rotting-oranges) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -25,6 +26,7 @@ kangrae-jo's Algorithm
 | [0200-number-of-islands](https://github.com/kangrae-jo/algorithm/tree/master/0200-number-of-islands) |
 | [0463-island-perimeter](https://github.com/kangrae-jo/algorithm/tree/master/0463-island-perimeter) |
 | [0733-flood-fill](https://github.com/kangrae-jo/algorithm/tree/master/0733-flood-fill) |
+| [0994-rotting-oranges](https://github.com/kangrae-jo/algorithm/tree/master/0994-rotting-oranges) |
 ## Matrix
 |  |
 | ------- |
@@ -32,6 +34,7 @@ kangrae-jo's Algorithm
 | [0200-number-of-islands](https://github.com/kangrae-jo/algorithm/tree/master/0200-number-of-islands) |
 | [0463-island-perimeter](https://github.com/kangrae-jo/algorithm/tree/master/0463-island-perimeter) |
 | [0733-flood-fill](https://github.com/kangrae-jo/algorithm/tree/master/0733-flood-fill) |
+| [0994-rotting-oranges](https://github.com/kangrae-jo/algorithm/tree/master/0994-rotting-oranges) |
 ## Union-Find
 |  |
 | ------- |
