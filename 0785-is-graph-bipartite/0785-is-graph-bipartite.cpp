@@ -11,7 +11,6 @@ class Solution {
 public:
     bool isBipartite(vector<vector<int>>& graph) {
         int n = graph.size();
-
         vector<int> colors(n, EMPTY);
         for (int i = 0; i < n; i++) {
             if (colors[i] == EMPTY) {
@@ -43,9 +42,7 @@ public:
 
                 for (int next : graph[cur]) {
                     if (colors[next] == COLOR) return false;
-                    if (colors[next] == EMPTY) {
-                        q.push(next);
-                    }
+                    if (colors[next] == EMPTY) q.push(next);
                 }
                 
             }
@@ -55,4 +52,4 @@ public:
     }
 };
 
-// 15:48 ~
+// 15:48 ~ 16:17
