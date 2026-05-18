@@ -22,6 +22,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Sync with latest branch
+        run: git pull --ff-only origin "${GITHUB_REF_NAME}"
 
       - name: Move root LeetHub folders
         run: |
@@ -34,7 +39,6 @@ jobs:
           leetcode_dir = root / "LeetCode"
           root_readme = root / "README.md"
           leetcode_readme = leetcode_dir / "README.md"
-          moved_list = Path("/tmp/moved-leetcode-folders.txt")
 
           problem_dir_name = re.compile(r"^\d+-")
           topics_block = re.compile(
@@ -51,9 +55,20 @@ jobs:
 
               target = leetcode_dir / path.name
               if target.exists():
-                  shutil.rmtree(target)
+                  for item in path.iterdir():
+                      destination = target / item.name
+                      if destination.exists():
+                          if destination.is_dir():
+                              shutil.rmtree(destination)
+                          else:
+                              destination.unlink()
 
-              shutil.move(str(path), str(target))
+                      shutil.move(str(item), str(destination))
+
+                  path.rmdir()
+              else:
+                  shutil.move(str(path), str(target))
+
               moved.append(path.name)
               print(f"Moved {path} -> {target}")
 
@@ -86,19 +101,11 @@ jobs:
 
           if not moved:
               print("No root LeetHub folders found.")
-
-          moved_list.write_text("\n".join(moved), encoding="utf-8")
           PY
 
-      - name: Commit
+      - name: Commit and push
         run: |
-          git add -A -- README.md LeetCode
-
-          if [[ -s /tmp/moved-leetcode-folders.txt ]]; then
-            while IFS= read -r path; do
-              git add -A -- "$path"
-            done < /tmp/moved-leetcode-folders.txt
-          fi
+          git add -A
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
@@ -108,4 +115,15 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Move LeetCode files"
-          git push
+
+          for attempt in 1 2 3; do
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              exit 0
+            fi
+
+            echo "Push failed. Rebasing on latest ${GITHUB_REF_NAME} and retrying..."
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+          done
+
+          echo "Push failed after 3 attempts."
+          exit 1
