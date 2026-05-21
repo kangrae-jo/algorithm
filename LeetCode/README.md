@@ -2,28 +2,20 @@
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Dynamic Programming
-|  |
-| ------- |
-| [0787-cheapest-flights-within-k-stops](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0787-cheapest-flights-within-k-stops) |
 ## Depth-First Search
 |  |
 | ------- |
-| [0787-cheapest-flights-within-k-stops](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0787-cheapest-flights-within-k-stops) |
+| [0210-course-schedule-ii](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0210-course-schedule-ii) |
 ## Breadth-First Search
 |  |
 | ------- |
-| [0787-cheapest-flights-within-k-stops](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0787-cheapest-flights-within-k-stops) |
+| [0210-course-schedule-ii](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0210-course-schedule-ii) |
 ## Graph Theory
 |  |
 | ------- |
-| [0787-cheapest-flights-within-k-stops](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0787-cheapest-flights-within-k-stops) |
-## Heap (Priority Queue)
+| [0210-course-schedule-ii](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0210-course-schedule-ii) |
+## Topological Sort
 |  |
 | ------- |
-| [0787-cheapest-flights-within-k-stops](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0787-cheapest-flights-within-k-stops) |
-## Shortest Path
-|  |
-| ------- |
-| [0787-cheapest-flights-within-k-stops](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0787-cheapest-flights-within-k-stops) |
+| [0210-course-schedule-ii](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0210-course-schedule-ii) |
 <!---LeetCode Topics End-->
