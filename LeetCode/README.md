@@ -2,20 +2,12 @@
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Depth-First Search
+## String
 |  |
 | ------- |
-| [0210-course-schedule-ii](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0210-course-schedule-ii) |
-## Breadth-First Search
+| [0072-edit-distance](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0072-edit-distance) |
+## Dynamic Programming
 |  |
 | ------- |
-| [0210-course-schedule-ii](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0210-course-schedule-ii) |
-## Graph Theory
-|  |
-| ------- |
-| [0210-course-schedule-ii](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0210-course-schedule-ii) |
-## Topological Sort
-|  |
-| ------- |
-| [0210-course-schedule-ii](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0210-course-schedule-ii) |
+| [0072-edit-distance](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0072-edit-distance) |
 <!---LeetCode Topics End-->
