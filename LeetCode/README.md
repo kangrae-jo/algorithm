@@ -2,16 +2,12 @@
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Array
+## Math
 |  |
 | ------- |
-| [0045-jump-game-ii](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0045-jump-game-ii) |
+| [0343-integer-break](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0343-integer-break) |
 ## Dynamic Programming
 |  |
 | ------- |
-| [0045-jump-game-ii](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0045-jump-game-ii) |
-## Greedy
-|  |
-| ------- |
-| [0045-jump-game-ii](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0045-jump-game-ii) |
+| [0343-integer-break](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0343-integer-break) |
 <!---LeetCode Topics End-->
