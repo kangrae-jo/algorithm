@@ -2,12 +2,12 @@
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## String
+## Array
 |  |
 | ------- |
-| [0072-edit-distance](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0072-edit-distance) |
+| [0198-house-robber](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0198-house-robber) |
 ## Dynamic Programming
 |  |
 | ------- |
-| [0072-edit-distance](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0072-edit-distance) |
+| [0198-house-robber](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0198-house-robber) |
 <!---LeetCode Topics End-->
