@@ -2,12 +2,12 @@
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Math
+## Two Pointers
 |  |
 | ------- |
-| [0343-integer-break](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0343-integer-break) |
-## Dynamic Programming
+| [0443-string-compression](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0443-string-compression) |
+## String
 |  |
 | ------- |
-| [0343-integer-break](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0343-integer-break) |
+| [0443-string-compression](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0443-string-compression) |
 <!---LeetCode Topics End-->
