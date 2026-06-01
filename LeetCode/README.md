@@ -2,12 +2,16 @@
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0075-sort-colors) |
 ## Two Pointers
 |  |
 | ------- |
-| [0443-string-compression](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0443-string-compression) |
-## String
+| [0075-sort-colors](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0075-sort-colors) |
+## Sorting
 |  |
 | ------- |
-| [0443-string-compression](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0443-string-compression) |
+| [0075-sort-colors](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0075-sort-colors) |
 <!---LeetCode Topics End-->
