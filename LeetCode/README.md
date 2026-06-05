@@ -2,16 +2,12 @@
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Array
+## Linked List
 |  |
 | ------- |
-| [0075-sort-colors](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0075-sort-colors) |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0019-remove-nth-node-from-end-of-list) |
 ## Two Pointers
 |  |
 | ------- |
-| [0075-sort-colors](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0075-sort-colors) |
-## Sorting
-|  |
-| ------- |
-| [0075-sort-colors](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0075-sort-colors) |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0019-remove-nth-node-from-end-of-list) |
 <!---LeetCode Topics End-->
