@@ -2,12 +2,24 @@
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Linked List
+## Array
 |  |
 | ------- |
-| [0019-remove-nth-node-from-end-of-list](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0019-remove-nth-node-from-end-of-list) |
+| [0611-valid-triangle-number](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0611-valid-triangle-number) |
 ## Two Pointers
 |  |
 | ------- |
-| [0019-remove-nth-node-from-end-of-list](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0019-remove-nth-node-from-end-of-list) |
+| [0611-valid-triangle-number](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0611-valid-triangle-number) |
+## Binary Search
+|  |
+| ------- |
+| [0611-valid-triangle-number](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0611-valid-triangle-number) |
+## Greedy
+|  |
+| ------- |
+| [0611-valid-triangle-number](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0611-valid-triangle-number) |
+## Sorting
+|  |
+| ------- |
+| [0611-valid-triangle-number](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0611-valid-triangle-number) |
 <!---LeetCode Topics End-->
