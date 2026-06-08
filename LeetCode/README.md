@@ -5,17 +5,9 @@
 ## Array
 |  |
 | ------- |
-| [0179-largest-number](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0179-largest-number) |
-## String
-|  |
-| ------- |
-| [0179-largest-number](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0179-largest-number) |
-## Greedy
-|  |
-| ------- |
-| [0179-largest-number](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0179-largest-number) |
+| [0056-merge-intervals](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0056-merge-intervals) |
 ## Sorting
 |  |
 | ------- |
-| [0179-largest-number](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0179-largest-number) |
+| [0056-merge-intervals](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0056-merge-intervals) |
 <!---LeetCode Topics End-->
