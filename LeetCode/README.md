@@ -5,21 +5,17 @@
 ## Array
 |  |
 | ------- |
-| [0611-valid-triangle-number](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0611-valid-triangle-number) |
-## Two Pointers
+| [0179-largest-number](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0179-largest-number) |
+## String
 |  |
 | ------- |
-| [0611-valid-triangle-number](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0611-valid-triangle-number) |
-## Binary Search
-|  |
-| ------- |
-| [0611-valid-triangle-number](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0611-valid-triangle-number) |
+| [0179-largest-number](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0179-largest-number) |
 ## Greedy
 |  |
 | ------- |
-| [0611-valid-triangle-number](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0611-valid-triangle-number) |
+| [0179-largest-number](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0179-largest-number) |
 ## Sorting
 |  |
 | ------- |
-| [0611-valid-triangle-number](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0611-valid-triangle-number) |
+| [0179-largest-number](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0179-largest-number) |
 <!---LeetCode Topics End-->
