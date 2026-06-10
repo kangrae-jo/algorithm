@@ -2,12 +2,24 @@
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Array
+## Linked List
 |  |
 | ------- |
-| [0056-merge-intervals](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0056-merge-intervals) |
+| [0148-sort-list](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0148-sort-list) |
+## Two Pointers
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0148-sort-list) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0148-sort-list) |
 ## Sorting
 |  |
 | ------- |
-| [0056-merge-intervals](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0056-merge-intervals) |
+| [0148-sort-list](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0148-sort-list) |
+## Merge Sort
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0148-sort-list) |
 <!---LeetCode Topics End-->
