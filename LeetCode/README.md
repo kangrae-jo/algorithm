@@ -2,24 +2,20 @@
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Linked List
+## Array
 |  |
 | ------- |
-| [0148-sort-list](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0148-sort-list) |
+| [0881-boats-to-save-people](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0881-boats-to-save-people) |
 ## Two Pointers
 |  |
 | ------- |
-| [0148-sort-list](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0148-sort-list) |
-## Divide and Conquer
+| [0881-boats-to-save-people](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0881-boats-to-save-people) |
+## Greedy
 |  |
 | ------- |
-| [0148-sort-list](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0148-sort-list) |
+| [0881-boats-to-save-people](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0881-boats-to-save-people) |
 ## Sorting
 |  |
 | ------- |
-| [0148-sort-list](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0148-sort-list) |
-## Merge Sort
-|  |
-| ------- |
-| [0148-sort-list](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0148-sort-list) |
+| [0881-boats-to-save-people](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0881-boats-to-save-people) |
 <!---LeetCode Topics End-->
