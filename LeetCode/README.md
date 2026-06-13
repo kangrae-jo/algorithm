@@ -5,17 +5,21 @@
 ## Array
 |  |
 | ------- |
-| [0881-boats-to-save-people](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0881-boats-to-save-people) |
-## Two Pointers
+| [1366-rank-teams-by-votes](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/1366-rank-teams-by-votes) |
+## Hash Table
 |  |
 | ------- |
-| [0881-boats-to-save-people](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0881-boats-to-save-people) |
-## Greedy
+| [1366-rank-teams-by-votes](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/1366-rank-teams-by-votes) |
+## String
 |  |
 | ------- |
-| [0881-boats-to-save-people](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0881-boats-to-save-people) |
+| [1366-rank-teams-by-votes](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/1366-rank-teams-by-votes) |
 ## Sorting
 |  |
 | ------- |
-| [0881-boats-to-save-people](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0881-boats-to-save-people) |
+| [1366-rank-teams-by-votes](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/1366-rank-teams-by-votes) |
+## Counting
+|  |
+| ------- |
+| [1366-rank-teams-by-votes](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/1366-rank-teams-by-votes) |
 <!---LeetCode Topics End-->
