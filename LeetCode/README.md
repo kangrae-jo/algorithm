@@ -2,24 +2,24 @@
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Array
+## Two Pointers
 |  |
 | ------- |
-| [1366-rank-teams-by-votes](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/1366-rank-teams-by-votes) |
-## Hash Table
+| [0295-find-median-from-data-stream](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0295-find-median-from-data-stream) |
+## Design
 |  |
 | ------- |
-| [1366-rank-teams-by-votes](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/1366-rank-teams-by-votes) |
-## String
-|  |
-| ------- |
-| [1366-rank-teams-by-votes](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/1366-rank-teams-by-votes) |
+| [0295-find-median-from-data-stream](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0295-find-median-from-data-stream) |
 ## Sorting
 |  |
 | ------- |
-| [1366-rank-teams-by-votes](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/1366-rank-teams-by-votes) |
-## Counting
+| [0295-find-median-from-data-stream](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0295-find-median-from-data-stream) |
+## Heap (Priority Queue)
 |  |
 | ------- |
-| [1366-rank-teams-by-votes](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/1366-rank-teams-by-votes) |
+| [0295-find-median-from-data-stream](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0295-find-median-from-data-stream) |
+## Data Stream
+|  |
+| ------- |
+| [0295-find-median-from-data-stream](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0295-find-median-from-data-stream) |
 <!---LeetCode Topics End-->
