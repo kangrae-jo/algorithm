@@ -2,24 +2,12 @@
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Two Pointers
+## Array
 |  |
 | ------- |
-| [0295-find-median-from-data-stream](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0295-find-median-from-data-stream) |
-## Design
-|  |
-| ------- |
-| [0295-find-median-from-data-stream](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0295-find-median-from-data-stream) |
+| [1288-remove-covered-intervals](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/1288-remove-covered-intervals) |
 ## Sorting
 |  |
 | ------- |
-| [0295-find-median-from-data-stream](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0295-find-median-from-data-stream) |
-## Heap (Priority Queue)
-|  |
-| ------- |
-| [0295-find-median-from-data-stream](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0295-find-median-from-data-stream) |
-## Data Stream
-|  |
-| ------- |
-| [0295-find-median-from-data-stream](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0295-find-median-from-data-stream) |
+| [1288-remove-covered-intervals](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/1288-remove-covered-intervals) |
 <!---LeetCode Topics End-->
