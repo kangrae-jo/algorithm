@@ -5,9 +5,17 @@
 ## Array
 |  |
 | ------- |
-| [1288-remove-covered-intervals](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/1288-remove-covered-intervals) |
+| [0406-queue-reconstruction-by-height](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0406-queue-reconstruction-by-height) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [0406-queue-reconstruction-by-height](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0406-queue-reconstruction-by-height) |
+## Segment Tree
+|  |
+| ------- |
+| [0406-queue-reconstruction-by-height](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0406-queue-reconstruction-by-height) |
 ## Sorting
 |  |
 | ------- |
-| [1288-remove-covered-intervals](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/1288-remove-covered-intervals) |
+| [0406-queue-reconstruction-by-height](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0406-queue-reconstruction-by-height) |
 <!---LeetCode Topics End-->
