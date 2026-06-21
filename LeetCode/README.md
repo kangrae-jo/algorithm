@@ -5,17 +5,9 @@
 ## Array
 |  |
 | ------- |
-| [0406-queue-reconstruction-by-height](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0406-queue-reconstruction-by-height) |
-## Binary Indexed Tree
+| [0238-product-of-array-except-self](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0238-product-of-array-except-self) |
+## Prefix Sum
 |  |
 | ------- |
-| [0406-queue-reconstruction-by-height](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0406-queue-reconstruction-by-height) |
-## Segment Tree
-|  |
-| ------- |
-| [0406-queue-reconstruction-by-height](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0406-queue-reconstruction-by-height) |
-## Sorting
-|  |
-| ------- |
-| [0406-queue-reconstruction-by-height](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0406-queue-reconstruction-by-height) |
+| [0238-product-of-array-except-self](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0238-product-of-array-except-self) |
 <!---LeetCode Topics End-->
