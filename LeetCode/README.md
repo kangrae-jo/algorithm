@@ -5,9 +5,13 @@
 ## Array
 |  |
 | ------- |
-| [0238-product-of-array-except-self](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0238-product-of-array-except-self) |
-## Prefix Sum
+| [0088-merge-sorted-array](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0088-merge-sorted-array) |
+## Two Pointers
 |  |
 | ------- |
-| [0238-product-of-array-except-self](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0238-product-of-array-except-self) |
+| [0088-merge-sorted-array](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0088-merge-sorted-array) |
+## Sorting
+|  |
+| ------- |
+| [0088-merge-sorted-array](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0088-merge-sorted-array) |
 <!---LeetCode Topics End-->
