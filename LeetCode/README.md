@@ -5,9 +5,9 @@
 ## Array
 |  |
 | ------- |
-| [0746-min-cost-climbing-stairs](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0746-min-cost-climbing-stairs) |
-## Dynamic Programming
+| [0134-gas-station](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0134-gas-station) |
+## Greedy
 |  |
 | ------- |
-| [0746-min-cost-climbing-stairs](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0746-min-cost-climbing-stairs) |
+| [0134-gas-station](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0134-gas-station) |
 <!---LeetCode Topics End-->
