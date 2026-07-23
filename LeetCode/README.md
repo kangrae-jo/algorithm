@@ -5,17 +5,17 @@
 ## Tree
 |  |
 | ------- |
-| [0993-cousins-in-binary-tree](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0993-cousins-in-binary-tree) |
+| [0112-path-sum](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0112-path-sum) |
 ## Depth-First Search
 |  |
 | ------- |
-| [0993-cousins-in-binary-tree](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0993-cousins-in-binary-tree) |
+| [0112-path-sum](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0112-path-sum) |
 ## Breadth-First Search
 |  |
 | ------- |
-| [0993-cousins-in-binary-tree](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0993-cousins-in-binary-tree) |
+| [0112-path-sum](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0112-path-sum) |
 ## Binary Tree
 |  |
 | ------- |
-| [0993-cousins-in-binary-tree](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0993-cousins-in-binary-tree) |
+| [0112-path-sum](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0112-path-sum) |
 <!---LeetCode Topics End-->
