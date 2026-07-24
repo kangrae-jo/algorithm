@@ -5,17 +5,13 @@
 ## Array
 |  |
 | ------- |
-| [0435-non-overlapping-intervals](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0435-non-overlapping-intervals) |
-## Dynamic Programming
+| [0289-game-of-life](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0289-game-of-life) |
+## Matrix
 |  |
 | ------- |
-| [0435-non-overlapping-intervals](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0435-non-overlapping-intervals) |
-## Greedy
+| [0289-game-of-life](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0289-game-of-life) |
+## Simulation
 |  |
 | ------- |
-| [0435-non-overlapping-intervals](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0435-non-overlapping-intervals) |
-## Sorting
-|  |
-| ------- |
-| [0435-non-overlapping-intervals](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0435-non-overlapping-intervals) |
+| [0289-game-of-life](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0289-game-of-life) |
 <!---LeetCode Topics End-->
