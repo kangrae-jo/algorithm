@@ -5,13 +5,25 @@
 ## Array
 |  |
 | ------- |
-| [0289-game-of-life](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0289-game-of-life) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2812-find-the-safest-path-in-a-grid) |
+## Binary Search
+|  |
+| ------- |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2812-find-the-safest-path-in-a-grid) |
+## Breadth-First Search
+|  |
+| ------- |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2812-find-the-safest-path-in-a-grid) |
+## Union-Find
+|  |
+| ------- |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2812-find-the-safest-path-in-a-grid) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2812-find-the-safest-path-in-a-grid) |
 ## Matrix
 |  |
 | ------- |
-| [0289-game-of-life](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0289-game-of-life) |
-## Simulation
-|  |
-| ------- |
-| [0289-game-of-life](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0289-game-of-life) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2812-find-the-safest-path-in-a-grid) |
 <!---LeetCode Topics End-->
