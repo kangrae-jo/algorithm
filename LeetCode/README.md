@@ -2,28 +2,20 @@
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Array
+## Tree
 |  |
 | ------- |
-| [2812-find-the-safest-path-in-a-grid](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2812-find-the-safest-path-in-a-grid) |
-## Binary Search
+| [0515-find-largest-value-in-each-tree-row](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0515-find-largest-value-in-each-tree-row) |
+## Depth-First Search
 |  |
 | ------- |
-| [2812-find-the-safest-path-in-a-grid](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2812-find-the-safest-path-in-a-grid) |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0515-find-largest-value-in-each-tree-row) |
 ## Breadth-First Search
 |  |
 | ------- |
-| [2812-find-the-safest-path-in-a-grid](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2812-find-the-safest-path-in-a-grid) |
-## Union-Find
+| [0515-find-largest-value-in-each-tree-row](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0515-find-largest-value-in-each-tree-row) |
+## Binary Tree
 |  |
 | ------- |
-| [2812-find-the-safest-path-in-a-grid](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2812-find-the-safest-path-in-a-grid) |
-## Heap (Priority Queue)
-|  |
-| ------- |
-| [2812-find-the-safest-path-in-a-grid](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2812-find-the-safest-path-in-a-grid) |
-## Matrix
-|  |
-| ------- |
-| [2812-find-the-safest-path-in-a-grid](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2812-find-the-safest-path-in-a-grid) |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0515-find-largest-value-in-each-tree-row) |
 <!---LeetCode Topics End-->
