@@ -2,20 +2,16 @@
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Tree
+## String
 |  |
 | ------- |
-| [0100-same-tree](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0100-same-tree) |
-## Depth-First Search
+| [0649-dota2-senate](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0649-dota2-senate) |
+## Greedy
 |  |
 | ------- |
-| [0100-same-tree](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0100-same-tree) |
-## Breadth-First Search
+| [0649-dota2-senate](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0649-dota2-senate) |
+## Queue
 |  |
 | ------- |
-| [0100-same-tree](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0100-same-tree) |
-## Binary Tree
-|  |
-| ------- |
-| [0100-same-tree](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0100-same-tree) |
+| [0649-dota2-senate](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0649-dota2-senate) |
 <!---LeetCode Topics End-->
