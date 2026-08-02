@@ -5,21 +5,17 @@
 ## Array
 |  |
 | ------- |
-| [0486-predict-the-winner](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0877-stone-game) |
 ## Math
 |  |
 | ------- |
-| [0486-predict-the-winner](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0877-stone-game) |
 ## Dynamic Programming
 |  |
 | ------- |
-| [0486-predict-the-winner](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0486-predict-the-winner) |
-## Recursion
-|  |
-| ------- |
-| [0486-predict-the-winner](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0877-stone-game) |
 ## Game Theory
 |  |
 | ------- |
-| [0486-predict-the-winner](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0877-stone-game) |
 <!---LeetCode Topics End-->
