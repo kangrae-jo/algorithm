@@ -2,20 +2,12 @@
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Array
+## String
 |  |
 | ------- |
-| [0877-stone-game](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0877-stone-game) |
-## Math
+| [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
+## Sliding Window
 |  |
 | ------- |
-| [0877-stone-game](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0877-stone-game) |
-## Dynamic Programming
-|  |
-| ------- |
-| [0877-stone-game](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0877-stone-game) |
-## Game Theory
-|  |
-| ------- |
-| [0877-stone-game](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0877-stone-game) |
+| [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 <!---LeetCode Topics End-->
