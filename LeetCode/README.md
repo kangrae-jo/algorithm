@@ -2,12 +2,12 @@
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## String
+## Array
 |  |
 | ------- |
-| [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
-## Sliding Window
+| [0624-maximum-distance-in-arrays](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0624-maximum-distance-in-arrays) |
+## Greedy
 |  |
 | ------- |
-| [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [0624-maximum-distance-in-arrays](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0624-maximum-distance-in-arrays) |
 <!---LeetCode Topics End-->
