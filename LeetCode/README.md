@@ -5,9 +5,13 @@
 ## Array
 |  |
 | ------- |
-| [0624-maximum-distance-in-arrays](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0624-maximum-distance-in-arrays) |
-## Greedy
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0167-two-sum-ii-input-array-is-sorted) |
+## Two Pointers
 |  |
 | ------- |
-| [0624-maximum-distance-in-arrays](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0624-maximum-distance-in-arrays) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0167-two-sum-ii-input-array-is-sorted) |
+## Binary Search
+|  |
+| ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0167-two-sum-ii-input-array-is-sorted) |
 <!---LeetCode Topics End-->
