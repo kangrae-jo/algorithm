@@ -5,13 +5,9 @@
 ## Array
 |  |
 | ------- |
-| [0167-two-sum-ii-input-array-is-sorted](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0167-two-sum-ii-input-array-is-sorted) |
-## Two Pointers
-|  |
-| ------- |
-| [0167-two-sum-ii-input-array-is-sorted](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0167-two-sum-ii-input-array-is-sorted) |
+| [0162-find-peak-element](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0162-find-peak-element) |
 ## Binary Search
 |  |
 | ------- |
-| [0167-two-sum-ii-input-array-is-sorted](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0167-two-sum-ii-input-array-is-sorted) |
+| [0162-find-peak-element](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0162-find-peak-element) |
 <!---LeetCode Topics End-->
