@@ -2,12 +2,20 @@
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Array
+## Tree
 |  |
 | ------- |
-| [0162-find-peak-element](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0162-find-peak-element) |
-## Binary Search
+| [0230-kth-smallest-element-in-a-bst](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0230-kth-smallest-element-in-a-bst) |
+## Depth-First Search
 |  |
 | ------- |
-| [0162-find-peak-element](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0162-find-peak-element) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0230-kth-smallest-element-in-a-bst) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0230-kth-smallest-element-in-a-bst) |
+## Binary Tree
+|  |
+| ------- |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0230-kth-smallest-element-in-a-bst) |
 <!---LeetCode Topics End-->
