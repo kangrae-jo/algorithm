@@ -2,20 +2,12 @@
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Tree
+## Linked List
 |  |
 | ------- |
-| [0230-kth-smallest-element-in-a-bst](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0230-kth-smallest-element-in-a-bst) |
-## Depth-First Search
+| [0021-merge-two-sorted-lists](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0021-merge-two-sorted-lists) |
+## Recursion
 |  |
 | ------- |
-| [0230-kth-smallest-element-in-a-bst](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0230-kth-smallest-element-in-a-bst) |
-## Binary Search Tree
-|  |
-| ------- |
-| [0230-kth-smallest-element-in-a-bst](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0230-kth-smallest-element-in-a-bst) |
-## Binary Tree
-|  |
-| ------- |
-| [0230-kth-smallest-element-in-a-bst](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0230-kth-smallest-element-in-a-bst) |
+| [0021-merge-two-sorted-lists](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0021-merge-two-sorted-lists) |
 <!---LeetCode Topics End-->
