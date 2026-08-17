@@ -2,16 +2,20 @@
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Math
+## Array
 |  |
 | ------- |
-| [1041-robot-bounded-in-circle](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/1041-robot-bounded-in-circle) |
-## String
+| [0864-shortest-path-to-get-all-keys](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0864-shortest-path-to-get-all-keys) |
+## Bit Manipulation
 |  |
 | ------- |
-| [1041-robot-bounded-in-circle](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/1041-robot-bounded-in-circle) |
-## Simulation
+| [0864-shortest-path-to-get-all-keys](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0864-shortest-path-to-get-all-keys) |
+## Breadth-First Search
 |  |
 | ------- |
-| [1041-robot-bounded-in-circle](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/1041-robot-bounded-in-circle) |
+| [0864-shortest-path-to-get-all-keys](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0864-shortest-path-to-get-all-keys) |
+## Matrix
+|  |
+| ------- |
+| [0864-shortest-path-to-get-all-keys](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0864-shortest-path-to-get-all-keys) |
 <!---LeetCode Topics End-->
