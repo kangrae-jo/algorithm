@@ -2,16 +2,16 @@
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Array
+## Math
 |  |
 | ------- |
-| [0735-asteroid-collision](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0735-asteroid-collision) |
-## Stack
+| [1041-robot-bounded-in-circle](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/1041-robot-bounded-in-circle) |
+## String
 |  |
 | ------- |
-| [0735-asteroid-collision](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0735-asteroid-collision) |
+| [1041-robot-bounded-in-circle](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/1041-robot-bounded-in-circle) |
 ## Simulation
 |  |
 | ------- |
-| [0735-asteroid-collision](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0735-asteroid-collision) |
+| [1041-robot-bounded-in-circle](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/1041-robot-bounded-in-circle) |
 <!---LeetCode Topics End-->
