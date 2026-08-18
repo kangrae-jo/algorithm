@@ -2,16 +2,12 @@
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Tree
+## Linked List
 |  |
 | ------- |
-| [0102-binary-tree-level-order-traversal](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0102-binary-tree-level-order-traversal) |
-## Breadth-First Search
+| [0024-swap-nodes-in-pairs](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0024-swap-nodes-in-pairs) |
+## Recursion
 |  |
 | ------- |
-| [0102-binary-tree-level-order-traversal](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0102-binary-tree-level-order-traversal) |
-## Binary Tree
-|  |
-| ------- |
-| [0102-binary-tree-level-order-traversal](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0102-binary-tree-level-order-traversal) |
+| [0024-swap-nodes-in-pairs](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0024-swap-nodes-in-pairs) |
 <!---LeetCode Topics End-->
