@@ -5,9 +5,9 @@
 ## Linked List
 |  |
 | ------- |
-| [0024-swap-nodes-in-pairs](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0024-swap-nodes-in-pairs) |
-## Recursion
+| [0061-rotate-list](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0061-rotate-list) |
+## Two Pointers
 |  |
 | ------- |
-| [0024-swap-nodes-in-pairs](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0024-swap-nodes-in-pairs) |
+| [0061-rotate-list](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0061-rotate-list) |
 <!---LeetCode Topics End-->
