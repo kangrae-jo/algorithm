@@ -2,12 +2,16 @@
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Linked List
+## Hash Table
 |  |
 | ------- |
-| [0061-rotate-list](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0061-rotate-list) |
-## Two Pointers
+| [0017-letter-combinations-of-a-phone-number](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0017-letter-combinations-of-a-phone-number) |
+## String
 |  |
 | ------- |
-| [0061-rotate-list](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0061-rotate-list) |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0017-letter-combinations-of-a-phone-number) |
+## Backtracking
+|  |
+| ------- |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0017-letter-combinations-of-a-phone-number) |
 <!---LeetCode Topics End-->
