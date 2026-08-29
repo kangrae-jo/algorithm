@@ -2,24 +2,20 @@
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Dynamic Programming
+## Linked List
 |  |
 | ------- |
-| [0847-shortest-path-visiting-all-nodes](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0847-shortest-path-visiting-all-nodes) |
-## Bit Manipulation
+| [0143-reorder-list](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0143-reorder-list) |
+## Two Pointers
 |  |
 | ------- |
-| [0847-shortest-path-visiting-all-nodes](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0847-shortest-path-visiting-all-nodes) |
-## Breadth-First Search
+| [0143-reorder-list](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0143-reorder-list) |
+## Stack
 |  |
 | ------- |
-| [0847-shortest-path-visiting-all-nodes](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0847-shortest-path-visiting-all-nodes) |
-## Graph Theory
+| [0143-reorder-list](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0143-reorder-list) |
+## Recursion
 |  |
 | ------- |
-| [0847-shortest-path-visiting-all-nodes](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0847-shortest-path-visiting-all-nodes) |
-## Bitmask
-|  |
-| ------- |
-| [0847-shortest-path-visiting-all-nodes](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0847-shortest-path-visiting-all-nodes) |
+| [0143-reorder-list](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0143-reorder-list) |
 <!---LeetCode Topics End-->
