@@ -2,20 +2,16 @@
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Linked List
+## Math
 |  |
 | ------- |
-| [0143-reorder-list](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0143-reorder-list) |
-## Two Pointers
+| [0062-unique-paths](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0062-unique-paths) |
+## Dynamic Programming
 |  |
 | ------- |
-| [0143-reorder-list](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0143-reorder-list) |
-## Stack
+| [0062-unique-paths](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0062-unique-paths) |
+## Combinatorics
 |  |
 | ------- |
-| [0143-reorder-list](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0143-reorder-list) |
-## Recursion
-|  |
-| ------- |
-| [0143-reorder-list](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0143-reorder-list) |
+| [0062-unique-paths](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0062-unique-paths) |
 <!---LeetCode Topics End-->
