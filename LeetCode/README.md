@@ -2,16 +2,8 @@
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Math
+## Linked List
 |  |
 | ------- |
-| [0062-unique-paths](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0062-unique-paths) |
-## Dynamic Programming
-|  |
-| ------- |
-| [0062-unique-paths](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0062-unique-paths) |
-## Combinatorics
-|  |
-| ------- |
-| [0062-unique-paths](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0062-unique-paths) |
+| [0092-reverse-linked-list-ii](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0092-reverse-linked-list-ii) |
 <!---LeetCode Topics End-->
