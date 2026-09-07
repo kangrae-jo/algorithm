@@ -5,17 +5,17 @@
 ## Array
 |  |
 | ------- |
-| [0300-longest-increasing-subsequence](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0300-longest-increasing-subsequence) |
-## Binary Search
-|  |
-| ------- |
-| [0300-longest-increasing-subsequence](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0300-longest-increasing-subsequence) |
+| [0416-partition-equal-subset-sum](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0416-partition-equal-subset-sum) |
 ## Dynamic Programming
 |  |
 | ------- |
-| [0300-longest-increasing-subsequence](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0300-longest-increasing-subsequence) |
-## Longest Increasing Subsequence
+| [0416-partition-equal-subset-sum](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0416-partition-equal-subset-sum) |
+## Knapsack Problem
 |  |
 | ------- |
-| [0300-longest-increasing-subsequence](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0300-longest-increasing-subsequence) |
+| [0416-partition-equal-subset-sum](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0416-partition-equal-subset-sum) |
+## 0-1 Knapsack
+|  |
+| ------- |
+| [0416-partition-equal-subset-sum](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0416-partition-equal-subset-sum) |
 <!---LeetCode Topics End-->
