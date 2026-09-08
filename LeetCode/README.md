@@ -5,17 +5,21 @@
 ## Array
 |  |
 | ------- |
-| [0416-partition-equal-subset-sum](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0416-partition-equal-subset-sum) |
+| [0322-coin-change](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0322-coin-change) |
 ## Dynamic Programming
 |  |
 | ------- |
-| [0416-partition-equal-subset-sum](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0416-partition-equal-subset-sum) |
+| [0322-coin-change](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0322-coin-change) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0322-coin-change) |
 ## Knapsack Problem
 |  |
 | ------- |
-| [0416-partition-equal-subset-sum](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0416-partition-equal-subset-sum) |
-## 0-1 Knapsack
+| [0322-coin-change](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0322-coin-change) |
+## Complete Knapsack
 |  |
 | ------- |
-| [0416-partition-equal-subset-sum](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0416-partition-equal-subset-sum) |
+| [0322-coin-change](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0322-coin-change) |
 <!---LeetCode Topics End-->
