@@ -5,21 +5,13 @@
 ## Array
 |  |
 | ------- |
-| [0322-coin-change](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0322-coin-change) |
+| [2684-maximum-number-of-moves-in-a-grid](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2684-maximum-number-of-moves-in-a-grid) |
 ## Dynamic Programming
 |  |
 | ------- |
-| [0322-coin-change](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0322-coin-change) |
-## Breadth-First Search
+| [2684-maximum-number-of-moves-in-a-grid](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2684-maximum-number-of-moves-in-a-grid) |
+## Matrix
 |  |
 | ------- |
-| [0322-coin-change](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0322-coin-change) |
-## Knapsack Problem
-|  |
-| ------- |
-| [0322-coin-change](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0322-coin-change) |
-## Complete Knapsack
-|  |
-| ------- |
-| [0322-coin-change](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0322-coin-change) |
+| [2684-maximum-number-of-moves-in-a-grid](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2684-maximum-number-of-moves-in-a-grid) |
 <!---LeetCode Topics End-->
