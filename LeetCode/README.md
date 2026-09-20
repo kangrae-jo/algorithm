@@ -2,20 +2,12 @@
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Math
-|  |
-| ------- |
-| [0640-solve-the-equation](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0640-solve-the-equation) |
 ## String
 |  |
 | ------- |
-| [0640-solve-the-equation](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0640-solve-the-equation) |
-## Simulation
+| [0091-decode-ways](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0091-decode-ways) |
+## Dynamic Programming
 |  |
 | ------- |
-| [0640-solve-the-equation](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0640-solve-the-equation) |
-## Linear Algebra
-|  |
-| ------- |
-| [0640-solve-the-equation](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0640-solve-the-equation) |
+| [0091-decode-ways](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0091-decode-ways) |
 <!---LeetCode Topics End-->
