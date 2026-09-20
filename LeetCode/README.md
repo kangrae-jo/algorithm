@@ -2,16 +2,20 @@
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Array
+## Math
 |  |
 | ------- |
-| [2684-maximum-number-of-moves-in-a-grid](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2684-maximum-number-of-moves-in-a-grid) |
-## Dynamic Programming
+| [0640-solve-the-equation](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0640-solve-the-equation) |
+## String
 |  |
 | ------- |
-| [2684-maximum-number-of-moves-in-a-grid](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2684-maximum-number-of-moves-in-a-grid) |
-## Matrix
+| [0640-solve-the-equation](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0640-solve-the-equation) |
+## Simulation
 |  |
 | ------- |
-| [2684-maximum-number-of-moves-in-a-grid](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2684-maximum-number-of-moves-in-a-grid) |
+| [0640-solve-the-equation](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0640-solve-the-equation) |
+## Linear Algebra
+|  |
+| ------- |
+| [0640-solve-the-equation](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0640-solve-the-equation) |
 <!---LeetCode Topics End-->
