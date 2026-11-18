@@ -2,12 +2,8 @@
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Array
+## String
 |  |
 | ------- |
-| [0001-two-sum](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0001-two-sum) |
-## Hash Table
-|  |
-| ------- |
-| [0001-two-sum](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0001-two-sum) |
+| [2914-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2914-minimum-number-of-changes-to-make-binary-string-beautiful) |
 <!---LeetCode Topics End-->
