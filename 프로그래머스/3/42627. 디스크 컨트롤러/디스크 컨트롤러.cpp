@@ -1,21 +1,20 @@
-#include <algorithm>
-#include <vector>
 #include <queue>
+#include <vector>
+#include <algorithm>
 
 using namespace std;
 
 int solution(vector<vector<int>> jobs) {
     sort(jobs.begin(), jobs.end());
+    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<>> pq;
     
-    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<>> pq; 
-    int answer = 0;
-    int now = 0;
-    int i = 0;
+    int wait = 0, index = 0, now = 0;
+    int n = jobs.size();
     
-    while (i < jobs.size() || !pq.empty()) {
-        while(i < jobs.size() && now >= jobs[i][0]) {
-            pq.push({jobs[i][1], jobs[i][0]});
-            i++;
+    while (index < n || !pq.empty()) {
+        while (index < n && jobs[index][0] <= now) {
+            pq.push({jobs[index][1], jobs[index][0]});
+            index++;
         }
         
         if (!pq.empty()) {
@@ -23,10 +22,10 @@ int solution(vector<vector<int>> jobs) {
             pq.pop();
             
             now += time;
-            answer += now - start;
+            wait += now - start;
         }
-        else now = jobs[i][0];
+        else now = jobs[index][0];
     }
     
-    return answer / jobs.size();
+    return wait / n;
 }
