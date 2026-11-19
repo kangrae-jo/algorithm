@@ -6,49 +6,31 @@
 using namespace std;
 
 int solution(string message, vector<vector<int>> spoiler_ranges) {
-    unordered_map<string, vector<pair<int, int>>> words;
-    set<string> words_list;
-    
-    string temp = "";
-    int start = 0;
-    for (int i = 0; i < message.size(); i++) {
-        char c = message[i];
-        if (c == ' ') {
-            words_list.insert(temp);
-            words[temp].push_back({start, i - 1});
-            start = i + 1;
-            temp = "";
-        }
-        else temp += c;
+    int n = message.size();
+    vector<bool> hidden(n, false);
+    for (const auto& spoiler_range : spoiler_ranges) {
+        for (int i = spoiler_range[0]; i <= spoiler_range[1]; i++) hidden[i] = true;
     }
-    words_list.insert(temp);
-    words[temp].push_back({start, message.size() - 1});
+
+    set<string> spoiler_words, normal_words;
+    string temp = "";
+    bool is_spoiler = false;
+    for (int i = 0; i <= n; i++) {
+        if (i == n || message[i] == ' ') {
+            if (is_spoiler) spoiler_words.insert(temp);
+            else normal_words.insert(temp);
+            temp = "";
+            is_spoiler = false;
+        } else {
+            temp += message[i];
+            if (hidden[i]) is_spoiler = true;
+        }
+    }
 
     int answer = 0;
-    for (const string& word : words_list) {
-        bool in_spoiler = false;
-        bool in_normal = false;
-
-        for (const pair<int, int>& pos : words[word]) {
-            int word_start = pos.first;
-            int word_end = pos.second;
-
-            bool hidden = false;
-            for (const vector<int>& spoiler_range : spoiler_ranges) {
-                int spoiler_start = spoiler_range[0];
-                int spoiler_end = spoiler_range[1];
-
-                if (word_end < spoiler_start || spoiler_end < word_start) continue;
-                hidden = true;
-                break;
-            }
-
-            if (hidden) in_spoiler = true;
-            else in_normal = true;
-        }
-
-        if (in_spoiler && !in_normal) answer++;
+    for (const string& spoiler_word : spoiler_words) {
+        if (!normal_words.count(spoiler_word)) answer++;
     }
-
+    
     return answer;
 }
