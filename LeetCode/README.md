@@ -5,13 +5,13 @@
 ## Array
 |  |
 | ------- |
-| [2567-minimum-score-by-changing-two-elements](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2567-minimum-score-by-changing-two-elements) |
-## Greedy
+| [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/3041-maximize-consecutive-elements-in-an-array-after-modification) |
+## Dynamic Programming
 |  |
 | ------- |
-| [2567-minimum-score-by-changing-two-elements](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2567-minimum-score-by-changing-two-elements) |
+| [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/3041-maximize-consecutive-elements-in-an-array-after-modification) |
 ## Sorting
 |  |
 | ------- |
-| [2567-minimum-score-by-changing-two-elements](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2567-minimum-score-by-changing-two-elements) |
+| [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/3041-maximize-consecutive-elements-in-an-array-after-modification) |
 <!---LeetCode Topics End-->

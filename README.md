@@ -1,19 +1,3 @@
 # Algorithm
 
 kangrae-jo's Algorithm
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/kangrae-jo/algorithm/tree/master/3041-maximize-consecutive-elements-in-an-array-after-modification) |
-## Dynamic Programming
-|  |
-| ------- |
-| [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/kangrae-jo/algorithm/tree/master/3041-maximize-consecutive-elements-in-an-array-after-modification) |
-## Sorting
-|  |
-| ------- |
-| [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/kangrae-jo/algorithm/tree/master/3041-maximize-consecutive-elements-in-an-array-after-modification) |
-<!---LeetCode Topics End-->
