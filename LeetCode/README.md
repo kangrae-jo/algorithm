@@ -5,13 +5,13 @@
 ## Array
 |  |
 | ------- |
-| [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/3041-maximize-consecutive-elements-in-an-array-after-modification) |
+| [1218-longest-arithmetic-subsequence-of-given-difference](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/1218-longest-arithmetic-subsequence-of-given-difference) |
+## Hash Table
+|  |
+| ------- |
+| [1218-longest-arithmetic-subsequence-of-given-difference](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/1218-longest-arithmetic-subsequence-of-given-difference) |
 ## Dynamic Programming
 |  |
 | ------- |
-| [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/3041-maximize-consecutive-elements-in-an-array-after-modification) |
-## Sorting
-|  |
-| ------- |
-| [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/3041-maximize-consecutive-elements-in-an-array-after-modification) |
+| [1218-longest-arithmetic-subsequence-of-given-difference](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/1218-longest-arithmetic-subsequence-of-given-difference) |
 <!---LeetCode Topics End-->
