@@ -5,13 +5,21 @@
 ## Array
 |  |
 | ------- |
-| [1218-longest-arithmetic-subsequence-of-given-difference](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/1218-longest-arithmetic-subsequence-of-given-difference) |
+| [2501-longest-square-streak-in-an-array](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2501-longest-square-streak-in-an-array) |
 ## Hash Table
 |  |
 | ------- |
-| [1218-longest-arithmetic-subsequence-of-given-difference](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/1218-longest-arithmetic-subsequence-of-given-difference) |
+| [2501-longest-square-streak-in-an-array](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2501-longest-square-streak-in-an-array) |
+## Binary Search
+|  |
+| ------- |
+| [2501-longest-square-streak-in-an-array](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2501-longest-square-streak-in-an-array) |
 ## Dynamic Programming
 |  |
 | ------- |
-| [1218-longest-arithmetic-subsequence-of-given-difference](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/1218-longest-arithmetic-subsequence-of-given-difference) |
+| [2501-longest-square-streak-in-an-array](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2501-longest-square-streak-in-an-array) |
+## Sorting
+|  |
+| ------- |
+| [2501-longest-square-streak-in-an-array](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2501-longest-square-streak-in-an-array) |
 <!---LeetCode Topics End-->
