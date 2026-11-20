@@ -2,24 +2,16 @@
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Array
-|  |
-| ------- |
-| [2501-longest-square-streak-in-an-array](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2501-longest-square-streak-in-an-array) |
 ## Hash Table
 |  |
 | ------- |
-| [2501-longest-square-streak-in-an-array](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2501-longest-square-streak-in-an-array) |
-## Binary Search
+| [2370-longest-ideal-subsequence](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2370-longest-ideal-subsequence) |
+## String
 |  |
 | ------- |
-| [2501-longest-square-streak-in-an-array](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2501-longest-square-streak-in-an-array) |
+| [2370-longest-ideal-subsequence](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2370-longest-ideal-subsequence) |
 ## Dynamic Programming
 |  |
 | ------- |
-| [2501-longest-square-streak-in-an-array](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2501-longest-square-streak-in-an-array) |
-## Sorting
-|  |
-| ------- |
-| [2501-longest-square-streak-in-an-array](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2501-longest-square-streak-in-an-array) |
+| [2370-longest-ideal-subsequence](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/2370-longest-ideal-subsequence) |
 <!---LeetCode Topics End-->
