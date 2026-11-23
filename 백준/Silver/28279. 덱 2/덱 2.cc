@@ -10,55 +10,47 @@ int main() {
     int N;
     cin >> N;
     
-    deque<int> dq;    
+    deque<int> dq;
     while (N--) {
-        int command, X, temp;
+        int command;
         cin >> command;
-        
-        switch(command){
-            case 1:
-                cin >> X;
-                dq.push_front(X);
-                break;
-            case 2: 
-                cin >> X;
-                dq.push_back(X);
-                break;
-            case 3: 
-                if (!dq.empty()) {
-                    temp = dq.front();
-                    dq.pop_front();
-                    cout << temp << '\n';
-                } else {
-                   cout << "-1\n"; 
-                }
-                break;
-           case 4:
-                if (!dq.empty()) {
-                    temp = dq.back();
-                    dq.pop_back();
-                    cout << temp << '\n';
-                } else {
-                   cout << "-1\n"; 
-                }
-                break;
-            case 5: 
-                cout << dq.size() << '\n';
-                break;
-            case 6: 
-                if (dq.empty()) cout << "1\n";
-                else cout << "0\n";
-                break;
-            case 7: 
-                 if (dq.empty()) cout << "-1\n";
-                else cout << dq.front() << '\n';
-                break;
-            case 8: 
-                if (dq.empty()) cout << "-1\n";
-                else cout << dq.back() << '\n';
-                break;
+        if (command == 1) {
+            int X;
+            cin >> X;
+            dq.push_front(X);
+        } else if (command == 2) {
+            int X;
+            cin >> X;
+            dq.push_back(X);
+        } else if (command == 3) {
+            if (!dq.empty()) {
+                int temp = dq.front();
+                dq.pop_front();
+                cout << temp << '\n';
+            } else {
+               cout << "-1\n"; 
+            }
+        } else if (command == 4) {
+            if (!dq.empty()) {
+                int temp = dq.back();
+                dq.pop_back();
+                cout << temp << '\n';
+            } else {
+               cout << "-1\n"; 
+            }
+        } else if (command == 5) {
+            cout << dq.size() << '\n';
+        } else if (command == 6) {
+            if (dq.empty()) cout << "1\n";
+            else cout << "0\n";
+        } else if (command == 7) {
+            if (dq.empty()) cout << "-1\n";
+            else cout << dq.front() << '\n';
+        } else if (command == 8) {
+            if (dq.empty()) cout << "-1\n";
+            else cout << dq.back() << '\n';
         }
     }
-        
+   
     return 0;
 }
