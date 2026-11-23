@@ -1,2 +1,2 @@
 select count(*) from ECOLI_DATA
-where GENOTYPE&7 in (1,4,5);
+where GENOTYPE&2 = 0 and (GENOTYPE&1 = 1 or GENOTYPE&4 = 4);
