@@ -1,34 +1,25 @@
-
-class Solution {
-
-    private static int[][] OFFSET = { {1, 0}, {0, 1}, {-1, 0}, {0, -1} };
-    private static int EMPTY = 0;
-    private static int WALL = 1;
-
+public class Solution {
     public int islandPerimeter(int[][] grid) {
-        int N = grid.length;
-        int M = grid[0].length;
+        int n = grid.length;
+        int m = grid[0].length;
+        int cnt = 0;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                if (grid[i][j] == 1) {
+                    if ((j > 0 && grid[i][j - 1] == 0) || j == 0)
+                        cnt++;
 
-        int answer = 0;
-        for (int y = 0; y < N; y++) {
-            for (int x = 0; x < M; x++) {
-                if (grid[y][x] == WALL) {
-                    for (int dir = 0; dir < 4; dir++) {
-                        int nY = y + OFFSET[dir][0];
-                        int nX = x + OFFSET[dir][1];
+                    if ((i > 0 && grid[i - 1][j] == 0) || i == 0)
+                        cnt++;
 
-                        if (!isIn(nY, nX, grid.length, grid[0].length) || grid[nY][nX] == EMPTY) {
-                            answer++;
-                        }
-                    }
+                    if ((j < m - 1 && grid[i][j + 1] == 0) || j == m - 1)
+                        cnt++;
+
+                    if ((i < n - 1 && grid[i + 1][j] == 0) || i == n - 1)
+                        cnt++;
                 }
             }
         }
-
-        return answer;
-    }
-
-    private boolean isIn(int y, int x, int N, int M) {
-        return 0 <= y && y < N && 0 <= x && x < M;
+        return cnt;
     }
 }
