@@ -10,38 +10,17 @@ class Solution {
         int M = grid[0].length;
 
         int answer = 0;
-        boolean[][] visited = new boolean[N][M];
         for (int y = 0; y < N; y++) {
             for (int x = 0; x < M; x++) {
-                if (grid[y][x] == WALL && !visited[y][x]) {
-                    answer += bfs(grid, y, x, visited);
-                }
-            }
-        }
+                if (grid[y][x] == WALL) {
+                    for (int dir = 0; dir < 4; dir++) {
+                        int nY = y + OFFSET[dir][0];
+                        int nX = x + OFFSET[dir][1];
 
-        return answer;
-    }
-
-    private int bfs(int[][] grid, int y, int x, boolean[][] visited) {
-        Deque<int[]> q = new ArrayDeque<>(); 
-        q.push(new int[]{y, x});
-        visited[y][x] = true;
-
-        int answer = 0;
-        while (!q.isEmpty()) {
-            int[] cur = q.poll();
-            int cY = cur[0];
-            int cX = cur[1];
-
-            for (int dir = 0; dir < 4; dir++) {
-                int nY = cY + OFFSET[dir][0];
-                int nX = cX + OFFSET[dir][1];
-
-                if (!isIn(nY, nX, grid.length, grid[0].length) || grid[nY][nX] == EMPTY) {
-                    answer++;
-                } else if (!visited[nY][nX]) {
-                    q.push(new int[]{nY, nX});
-                    visited[nY][nX] = true;
+                        if (!isIn(nY, nX, grid.length, grid[0].length) || grid[nY][nX] == EMPTY) {
+                            answer++;
+                        }
+                    }
                 }
             }
         }
