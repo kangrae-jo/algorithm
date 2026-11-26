@@ -2,20 +2,12 @@
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Tree
+## Two Pointers
 |  |
 | ------- |
-| [0993-cousins-in-binary-tree](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0993-cousins-in-binary-tree) |
-## Depth-First Search
+| [0443-string-compression](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0443-string-compression) |
+## String
 |  |
 | ------- |
-| [0993-cousins-in-binary-tree](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0993-cousins-in-binary-tree) |
-## Breadth-First Search
-|  |
-| ------- |
-| [0993-cousins-in-binary-tree](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0993-cousins-in-binary-tree) |
-## Binary Tree
-|  |
-| ------- |
-| [0993-cousins-in-binary-tree](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0993-cousins-in-binary-tree) |
+| [0443-string-compression](https://github.com/kangrae-jo/algorithm/tree/master/LeetCode/0443-string-compression) |
 <!---LeetCode Topics End-->
